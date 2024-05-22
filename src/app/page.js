@@ -1,5 +1,6 @@
 import MaxWidthWrapper from "@/components/MaxWidthWrapper";
 import Phone from "@/components/Phone";
+import ReviewSec from "./ReviewSec.jsx"
 import { ArrowRight, Check, Star } from "lucide-react";
 export default function Home() {
   return (
@@ -103,6 +104,7 @@ export default function Home() {
           </div>
         </MaxWidthWrapper>
       </section>
+      <ReviewSec />
     </div>
-  );
+  ); 
 }
